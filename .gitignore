@@ -1,0 +1,12 @@
+# Logs / build artifacts
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# Local notes (do not commit)
+TODO.md
+notes.md
+*.tmp

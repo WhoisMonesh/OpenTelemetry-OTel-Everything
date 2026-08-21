@@ -1,6 +1,6 @@
-# Complete OpenTelemetry (OTel) Encyclopedia — "OTEL Related"
+# OpenTelemetry Logging Encyclopedia — "OTEL Related" (Kibana / Coralogix focused)
 
-> **Everything you need to know about OpenTelemetry — from core concepts (traces, metrics, logs, profiling) to the Collector pipeline, instrumentation, semantic conventions, Kubernetes deployment, troubleshooting, interview prep, and real-world company adoption.** Inspired by the structure of [K8S-Everything](https://github.com/WhoisMonesh/K8S-Everything) and [All-AWS-Services-Explained](https://github.com/WhoisMonesh/All-AWS-Services-Explained).
+> **Everything you need to know about OpenTelemetry and modern logging — from core concepts (traces, metrics, logs, profiling) to the Collector pipeline, instrumentation, semantic conventions, Kubernetes deployment, troubleshooting, interview prep, and real-world company adoption — with a deep focus on centralized logging on [Kibana / Elastic Stack](#19--kibana--the-elastic-stack) and [Coralogix](#20--coralogix).** Inspired by the structure of [K8S-Everything](https://github.com/WhoisMonesh/K8S-Everything) and [All-AWS-Services-Explained](https://github.com/WhoisMonesh/All-AWS-Services-Explained).
 
 ---
 
@@ -17,19 +17,23 @@
 | 7 | [Context Propagation](07-context-propagation/README.md) | W3C Trace Context, Baggage, Propagators, B3, Composite Propagators, Cross-Process | 6 |
 | 8 | [Instrumentation](08-instrumentation/README.md) | Manual, Auto / Zero-Code, Libraries, Web, Mobile, eBPF, Doppler | 8 |
 | 9 | [Language SDKs](09-language-sdks/README.md) | Go, Python, Java, JS/TS, .NET, Rust, C++, Ruby, PHP, Swift | 10 |
-| 10 | [Exporters & Backends](10-exporters-backends/README.md) | Jaeger, Tempo, Prometheus, Loki, Honeycomb, Grafana, Lightstep, Datadog, New Relic | 11 |
+| 10 | [Exporters & Backends](10-exporters-backends/README.md) | Jaeger, Tempo, Prometheus, Loki, Honeycomb, Grafana, Lightstep, Datadog, New Relic, Elastic, Coralogix | 13 |
 | 11 | [Semantic Conventions](11-semantic-conventions/README.md) | Attributes, Resource, HTTP, DB, Messaging, RPC, FaaS, System, K8s, Exceptions | 10 |
 | 12 | [Profiling](12-profiling/README.md) | Continuous Profiling, pprof, eBPF Profiling, OTLP Profiles, Flamegraphs | 5 |
 | 13 | [Kubernetes Deployment](13-kubernetes-deployment/README.md) | Operator, Helm, DaemonSet Agent, Gateway, OTel CRDs, Auto-Instrumentation | 8 |
 | 14 | [Observability Practice](14-observability-practice/README.md) | Golden Signals, RED/USE, SLOs, Alerting, Cost, OpenTelemetry Demo | 7 |
 | 15 | [Troubleshooting](15-troubleshooting/README.md) | Missing Spans, Dropped Data, OOM, Sampling Loss, Collector Errors, Runbooks | 7 |
-| 16 | [Interview Prep](16-interview-prep/README.md) | Concepts, Common Questions, CKA-equivalent, Cheatsheets | 5 |
-| 17 | [Company Cases](17-company-cases/README.md) | Adoption stories, migrations, lessons learned | 6 |
+| 16 | [Interview Prep](16-interview-prep/README.md) | Concepts, Common Questions, Cheatsheets | 7 |
+| 17 | [Company Cases](17-company-cases/README.md) | Adoption stories, migrations, lessons learned | 7 |
+| 18 | [Logging Essentials](18-logging-essentials/README.md) | Structured logging, Levels, Formats, Centralized, Shipping, Agents, Parsing, Enrichment, Indexing, Retention, Cost | 12 |
+| 19 | [Kibana / Elastic Stack](19-kibana-elastic/README.md) | Elasticsearch, Kibana UI, ECS, Discover, Dashboards, Alerts, ILM, Data Streams, Ingest, Beats, Fleet, OTLP, Integrations | 14 |
+| 20 | [Coralogix](20-coralogix/README.md) | Platform, TCO Optimizer, Parsing, Loggregation, Anomalies, Alerts, Grafana, OTLP, Query, Integrations, Archiving, Use Cases | 13 |
+| 21 | [Log Observability Practice](21-log-observability-practice/README.md) | Query Languages, Log SLOs, Troubleshooting, Incident Response, Security, Cost Governance | 7 |
 | — | [Cheat Sheets](cheat-sheets/) · [Docs](docs/) · [Examples](examples/) | Quick references, guides, YAML/tutorials | 9+ |
 
-**Total: ~155 OpenTelemetry concepts, components, tools, and patterns across 17 topic categories + 18 reference docs (cheat-sheets, docs, examples) — 173 documents in total.**
+**Total: ~200 OpenTelemetry + logging concepts, components, tools, and patterns across 21 topic categories + reference docs — 220 documents in total.**
 
-> 💡 *Covers the three stable signals (traces, metrics, logs) plus the emerging profiling signal, the Collector pipeline, every major language SDK, backend integrations, semantic conventions, Kubernetes deployment, and real-world operational guidance.*
+> 💡 *Logging-centric: Sections 18–21 add a full logging track — fundamentals (structured logs, agents, parsing, ILM, cost) plus deep coverage of **Kibana/Elastic Stack** and **Coralogix** (TCO-optimized, Loggregation, anomalies, archiving), with OTLP ingestion for both. The OTel backbone (signals, Collector, instrumentation, SDKs, semantic conventions, Kubernetes) remains the data source feeding these platforms.*
 
 ---
 

@@ -2,7 +2,7 @@
 
 An exhaustive categorized index of every OpenTelemetry concept, component, tool, and pattern covered in this repository.
 
-> **Totals:** 17 topic categories + cheat-sheets + docs + examples = **173 documents**.
+> **Totals:** 21 topic categories + cheat-sheets + docs + examples = **220 documents**. Logging-focused sections 18–21 cover Kibana/Elastic and Coralogix in depth.
 
 ---
 
@@ -71,6 +71,18 @@ An exhaustive categorized index of every OpenTelemetry concept, component, tool,
 
 ## 17 · Company Cases (7)
 [README](17-company-cases/README.md) · [adoption.md](17-company-cases/adoption.md) · [migrations.md](17-company-cases/migrations.md) · [lessons-learned.md](17-company-cases/lessons-learned.md) · [case-ecommerce.md](17-company-cases/case-ecommerce.md) · [case-fintech.md](17-company-cases/case-fintech.md) · [case-platform.md](17-company-cases/case-platform.md)
+
+## 18 · Logging Essentials (12)
+[README](18-logging-essentials/README.md) · [structured-logging.md](18-logging-essentials/structured-logging.md) · [log-levels.md](18-logging-essentials/log-levels.md) · [log-formats.md](18-logging-essentials/log-formats.md) · [centralized-logging.md](18-logging-essentials/centralized-logging.md) · [log-shipping.md](18-logging-essentials/log-shipping.md) · [agents.md](18-logging-essentials/agents.md) · [parsing.md](18-logging-essentials/parsing.md) · [enrichment.md](18-logging-essentials/enrichment.md) · [indexing.md](18-logging-essentials/indexing.md) · [retention.md](18-logging-essentials/retention.md) · [log-cost.md](18-logging-essentials/log-cost.md)
+
+## 19 · Kibana & the Elastic Stack (14)
+[README](19-kibana-elastic/README.md) · [elasticsearch.md](19-kibana-elastic/elasticsearch.md) · [kibana-ui.md](19-kibana-elastic/kibana-ui.md) · [ecs.md](19-kibana-elastic/ecs.md) · [discover.md](19-kibana-elastic/discover.md) · [dashboards-visualizations.md](19-kibana-elastic/dashboards-visualizations.md) · [alerts.md](19-kibana-elastic/alerts.md) · [ilm.md](19-kibana-elastic/ilm.md) · [data-streams.md](19-kibana-elastic/data-streams.md) · [ingest-pipelines.md](19-kibana-elastic/ingest-pipelines.md) · [beats.md](19-kibana-elastic/beats.md) · [elastic-agent-fleet.md](19-kibana-elastic/elastic-agent-fleet.md) · [otlp-in-elastic.md](19-kibana-elastic/otlp-in-elastic.md) · [integrations.md](19-kibana-elastic/integrations.md)
+
+## 20 · Coralogix (13)
+[README](20-coralogix/README.md) · [platform-overview.md](20-coralogix/platform-overview.md) · [tco-optimizer.md](20-coralogix/tco-optimizer.md) · [parsing-rules.md](20-coralogix/parsing-rules.md) · [loggregation.md](20-coralogix/loggregation.md) · [anomalies.md](20-coralogix/anomalies.md) · [alerts.md](20-coralogix/alerts.md) · [grafana-integration.md](20-coralogix/grafana-integration.md) · [otlp-coralogix.md](20-coralogix/otlp-coralogix.md) · [query-dataflow.md](20-coralogix/query-dataflow.md) · [integrations-coralogix.md](20-coralogix/integrations-coralogix.md) · [log-archiving.md](20-coralogix/log-archiving.md) · [use-cases.md](20-coralogix/use-cases.md)
+
+## 21 · Log Observability Practice (7)
+[README](21-log-observability-practice/README.md) · [query-languages.md](21-log-observability-practice/query-languages.md) · [log-based-slos.md](21-log-observability-practice/log-based-slos.md) · [troubleshooting-with-logs.md](21-log-observability-practice/troubleshooting-with-logs.md) · [incident-response-logs.md](21-log-observability-practice/incident-response-logs.md) · [log-security.md](21-log-observability-practice/log-security.md) · [cost-governance.md](21-log-observability-practice/cost-governance.md)
 
 ## Cheat Sheets (6)
 [collector-config.md](cheat-sheets/collector-config.md) · [env-vars.md](cheat-sheets/env-vars.md) · [otel-cli.md](cheat-sheets/otel-cli.md) · [receiver-exporter-matrix.md](cheat-sheets/receiver-exporter-matrix.md) · [semantic-conventions-quick.md](cheat-sheets/semantic-conventions-quick.md) · [troubleshooting-quick.md](cheat-sheets/troubleshooting-quick.md)
